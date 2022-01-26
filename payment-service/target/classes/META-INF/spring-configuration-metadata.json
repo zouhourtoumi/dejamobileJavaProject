@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.paymentservice.datasourceConfig.PaymentDataSourceConfig",
+      "sourceMethod": "dataSourcefirst()"
+    },
+    {
+      "name": "spring.second-datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.paymentservice.datasourceConfig.BankDatasouceConfig",
+      "sourceMethod": "seconddatasource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
